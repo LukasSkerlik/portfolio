@@ -1,0 +1,35 @@
+A.  SETUP
+// 1. create react app DONE
+// 2. get rid of redundant files DONE
+// 3. make a basic structure of the codebase DONE
+
+B.  ADD SKELETON FROM TINDOG PROJECT
+// 1. add:
+// a) the header and footer
+// b) sections EXCLUDING testimonials
+// 2. change it to react and get rid of sections you dont need including in css
+
+
+
+C.  CHANGE HTML CONTENTS
+// 1. change title logo header
+// 2. change the first section with the blue panorama picture and its content
+// 3. section - who i am
+// 4. section - projects, their links and brief description (maybe add cards or something - add the gallery functionality from your codepen)
+// a) decide if you want to have a main projects and "small things" / side projects / whatewa or just main projects
+// b) most likely, host only main projects and maybe one/two of small ones
+// 5. contacts - where to contact me
+// 6. change footer
+
+
+
+D. STYLING
+// 1. correct color scheme
+// 2. correct color changes and text color changes between sections
+
+E. RESPONSIVNESS
+// 1. fix responsivness issues, if any
+
+F. DEPLOY TO HEROKU
+// 1. deploy
+// 2. get a custom domain name
