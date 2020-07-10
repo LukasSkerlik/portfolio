@@ -2,34 +2,56 @@ A.  SETUP
 // 1. create react app DONE
 // 2. get rid of redundant files DONE
 // 3. make a basic structure of the codebase DONE
+// 4. remove bootstrap and jquery DONE
 
-B.  ADD SKELETON FROM TINDOG PROJECT
-// 1. add:
-// a) the header and footer
-// b) sections EXCLUDING testimonials
-// 2. change it to react and get rid of sections you dont need including in css
+B.  populate "HTML" DONE
+// 1. add: DONE
+// a) the header and footer DONE
+// do not have navbar for mobile, or menu
+// b) sections DONE
 
 
 
-C.  CHANGE HTML CONTENTS
-// 1. change title logo header
-// 2. change the first section with the blue panorama picture and its content
-// 3. section - who i am
-// 4. section - projects, their links and brief description (maybe add cards or something - add the gallery functionality from your codepen)
-// a) decide if you want to have a main projects and "small things" / side projects / whatewa or just main projects
-// b) most likely, host only main projects and maybe one/two of small ones
-// 5. contacts - where to contact me
-// 6. change footer
+
+C.  CHANGE HTML CONTENTS DONE
+// 1. change title logo header DONE
+
+
 
 
 
 D. STYLING
-// 1. correct color scheme
-// 2. correct color changes and text color changes between sections
+// start with simpler holy grail layout and add flex to all sections
+// 1. color scheme all sections
+// 2. Header
+//   a) center elements as they should be
+//   b) style name
+//   c) style buttons
+//   d) css transition for links
+// 3. Intro
+//   a) resize i and add it to a div
+//   b) position everything
+//   c) optional: add fancy font for text
+// 4. About
+//   a) position everything
+// 5. Projects
+//   a) add images
+//   b) position everything
+//   c) add the gallery functionality from your codepen
+//   d) add links
+// 6. Contact
+//   b) position everything
+// 7. Footer - probably nothing
+
 
 E. RESPONSIVNESS
 // 1. fix responsivness issues, if any
 
-F. DEPLOY TO HEROKU
+F: RESUME AND linkedin
+1. make resume and linkedin
+2. add downloadable pdf version and link
+3. clean up hitub and add smaller projects
+
+H. DEPLOY TO HEROKU
 // 1. deploy
 // 2. get a custom domain name

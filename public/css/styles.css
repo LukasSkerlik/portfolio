@@ -1,0 +1,79 @@
+
+/* ------------------------------------------------------------------------ global ---------------------------------------------------------------*/
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+
+  body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  /* --------------------------------------------------------------------main sections ------------------------------------------------------------*/
+
+  main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-basis: 800px;
+  }
+
+  /* ------------------------------------------------------------------------header ----------------------------------------------------------------*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #222831;
+}
+.navbar h1{
+  color: #f2f2f2;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.navbar a{
+  color: #f2f2f2;
+  font-size: 1.3rem;
+}
+.links{
+  width: 400px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+/* ---------------------------------------------------------------------------Intro ----------------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------------------------About ----------------------------------------------------------------*/
+
+
+
+/* --------------------------------------------------------------------------Projects --------------------------------------------------------------*/
+.buttonDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.projectsDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+/* --------------------------------------------------------------------------Contact ---------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------------------------------Footer ---------------------------------------------------------------*/
