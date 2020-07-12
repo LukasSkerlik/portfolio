@@ -17,46 +17,69 @@ html {
     width: 100%;
     text-align: center;
   }
-  /* --------------------------------------------------------------------main sections ------------------------------------------------------------*/
-
-  main {
+  .site {
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      flex-basis: 800px;
   }
 
   /* ------------------------------------------------------------------------header ----------------------------------------------------------------*/
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #222831;
+  flex: 0 0;
 }
 .navbar h1{
   color: #f2f2f2;
     font-size: 1.8rem;
-    cursor: pointer;
+
 }
 .navbar a{
   color: #f2f2f2;
   font-size: 1.3rem;
+  cursor: pointer;
+}
+.navbar a:hover{
+  color: blue;
 }
 .links{
-  width: 400px;
+  width: 350px;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-right: 50px;
 }
+/* --------------------------------------------------------------------main sections ------------------------------------------------------------*/
 
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 2000px;
+}
 /* ---------------------------------------------------------------------------Intro ----------------------------------------------------------------*/
 
 
 /* ---------------------------------------------------------------------------About ----------------------------------------------------------------*/
+.About{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 500px;
+}
 
+.profile{
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /* --------------------------------------------------------------------------Projects --------------------------------------------------------------*/
@@ -70,10 +93,81 @@ html {
   flex-direction: row;
   justify-content: space-around;
 }
+/* -----------------------------------------------------------------------Portfolio Card -----------------------------------------------------------*/
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
 
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.PortfolioCardImg{
+  width:300px;
+  height:300px;
+}
+/* Position the front and back side */
+.flip-card-front, .bluePortfolioCard, .redPortfolioCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.bluePortfolioCard{
+  background-image: linear-gradient(to bottom right, #63b7af, #f2f2f2);
+  color: #222831;
+  transform: rotateY(180deg);
+}
+.redPortfolioCard{
+  background-image: linear-gradient(to bottom left, #ff2f00, #f2f2f2);
+  color: #222831;
+  transform: rotateY(180deg);
+}
 
 /* --------------------------------------------------------------------------Contact ---------------------------------------------------------------*/
 
 
 
 /* ---------------------------------------------------------------------------Footer ---------------------------------------------------------------*/
+footer{
+  background-color: #222831;
+    color: #f2f2f2;
+    flex: 0 0 50%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+/* ----------------------------------------------------------------------------basic ---------------------------------------------------------------*/
+
+.underline{
+  text-decoration: underline;
+}
+.smallerDiv{
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}

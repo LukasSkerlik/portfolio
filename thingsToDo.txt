@@ -19,7 +19,6 @@ C.  CHANGE HTML CONTENTS DONE
 
 
 
-
 D. STYLING
 // start with simpler holy grail layout and add flex to all sections
 // 1. color scheme all sections
@@ -55,3 +54,6 @@ F: RESUME AND linkedin
 H. DEPLOY TO HEROKU
 // 1. deploy
 // 2. get a custom domain name
+
+TODAY: MAKE BUTTON THAT LETS YOU DOWNLOAD A FILE (RESUME.PDF) font for name
+TOMORROW: MAKE LINKEID, LINKEID <a>,PHOTO, ADD PICTURE TO HERE,LINKEDIN AND GITHUB, COLOR SCHEME THE SITE WITH MY SHIRT (I know I know...)MAKE RESUME

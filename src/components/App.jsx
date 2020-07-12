@@ -8,14 +8,16 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <div>
-    <main>
+    <div class="site">
+
           <Header />
-            <About />
-            <Projects />
-            <Contact />
+            <main>
+              <About />
+              <Projects />
+              <Contact />
+            </main>
           <Footer />
-      </main>
+
     </div>
   );
 }
