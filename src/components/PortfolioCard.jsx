@@ -7,16 +7,18 @@ console.log(noteAppv2);
 // /static/media/noteAppv2.05699087.png
 console.log(blogv2);
 // /static/media/blogv2.b95f5cab.png
+let colorText= props.color + "Text";
   return (
+    <div>
+          <h1 class="underline" id={colorText}>{props.title}</h1>
     <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img class="PortfolioCardImg" src={props.img} alt="Lukas-Skerlik" />
     </div>
     <div class={props.color}>
-      <h1 class="underline">{props.title}</h1>
-      <p>{props.description}</p>
-      <h3 class="underline">Stack:</h3>
+      <h3>{props.description}</h3>
+      <p class="underline">Stack:</p>
       <p>{props.frontStack}</p>
       <p>{props.backStack} </p>
       <div class="buttonDiv">
@@ -29,6 +31,7 @@ console.log(blogv2);
       </div>
     </div>
   </div>
+</div>
 </div>
   );
 }

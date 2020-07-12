@@ -16,6 +16,7 @@ html {
     margin: 0;
     width: 100%;
     text-align: center;
+    font-size: 115%;
   }
   .site {
       width: 100%;
@@ -29,7 +30,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #222831;
+  background-color: #1b6ca8;
   flex: 0 0;
 }
 .navbar h1{
@@ -43,7 +44,7 @@ html {
   cursor: pointer;
 }
 .navbar a:hover{
-  color: blue;
+  color: #ffd3e1;
 }
 .links{
   width: 350px;
@@ -83,6 +84,13 @@ main {
 
 
 /* --------------------------------------------------------------------------Projects --------------------------------------------------------------*/
+.Projects{
+  background-color: #ffd3e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 800px;
+}
 .buttonDiv{
   display: flex;
   flex-direction: row;
@@ -99,7 +107,6 @@ main {
   background-color: transparent;
   width: 300px;
   height: 300px;
-  border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -140,13 +147,19 @@ main {
 /* Style the back side */
 .bluePortfolioCard{
   background-image: linear-gradient(to bottom right, #63b7af, #f2f2f2);
-  color: #222831;
+  color: #1b6ca8;
   transform: rotateY(180deg);
 }
 .redPortfolioCard{
   background-image: linear-gradient(to bottom left, #ff2f00, #f2f2f2);
-  color: #222831;
+  color: #1b6ca8;
   transform: rotateY(180deg);
+}
+#bluePortfolioCardText{
+  color: #63b7af;
+}
+#redPortfolioCardText{
+  color: #ff2f00;
 }
 
 /* --------------------------------------------------------------------------Contact ---------------------------------------------------------------*/
@@ -155,7 +168,7 @@ main {
 
 /* ---------------------------------------------------------------------------Footer ---------------------------------------------------------------*/
 footer{
-  background-color: #222831;
+  background-color: #1b6ca8;
     color: #f2f2f2;
     flex: 0 0 50%;
     padding-top: 2px;
@@ -170,4 +183,9 @@ footer{
   max-width: 450px;
   margin-left: auto;
   margin-right: auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

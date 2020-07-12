@@ -14,7 +14,11 @@ function About() {
         <div class="smallerDiv">
           <h3>I'm a full stack web developer with a focus on frontend.</h3>
           <h4>I primarily use the MERN stack, however I'm always keen on learning new technologies</h4>
-          <p>My resume is available for download here</p>
+          <p>My resume is available for download here:</p>
+
+<form method="get" action="dude.jpg">
+   <button type="submit">Download!</button>
+</form>
         </div>
       </div>
   );
